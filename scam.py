@@ -7,7 +7,7 @@ import json
 chars = string.ascii_letters + string.digits + "!@#$%^&*()_+}{:|?><"
 random.seed = (os.urandom(1024))
 
-url = "https://romanianxa.gq/Serv/e090f9777728f2044e78674d2bbda89e/Up-dating.php?log=CheckLog"
+url = "url"
 
 names = json.loads(open("names.json").read())
 
@@ -18,9 +18,8 @@ for name in names:
 	password = ''.join(random.choice(chars) for i in range(8))
 
 	grequests.post(url, allow_redirects = False, data={
-		"1": username,
-		"2": password,
-		"_eventId_continue": ""
+		"username": username,
+		"password": password
 	})
 	
 	print("sending username %s and password %s" % (username, password))
