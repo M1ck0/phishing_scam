@@ -8,7 +8,7 @@ This script was made by *Engineer Man* - ***[His channel](https://www.youtube.co
 
 I also provided names in json file that I got from ***[this](https://github.com/dominictarr/random-name/blob/master/first-names.json)*** github link
 
-Only differece is that I am using **grequests** instead of **requests** because theyare working ***asynchronous*** and it is faster
+Only difference is that I am using **grequests** instead of **requests** because theyare working ***asynchronous*** and it is faster
 
 I've put it here so I can always have it on safe place.
 
